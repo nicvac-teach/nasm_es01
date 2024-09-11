@@ -1,6 +1,7 @@
 section .data
     hello db 'hello', 0   ; Null-terminated string
 
+
 section .text
     global _start          ; Entry point for the program
 
