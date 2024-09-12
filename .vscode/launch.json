@@ -5,7 +5,7 @@
       "name": "Run Shell Command",
       "type": "node", // or the appropriate type for your project (e.g., python)
       "runtimeExecutable": "${workspaceFolder}/main",
-      "request": "launch",
+      //"request": "launch",
       //"program": "${workspaceFolder}/main", // Replace with your start file or leave it out if not applicable
       "preLaunchTask": "run shell command"
     }
